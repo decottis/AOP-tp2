@@ -6,7 +6,7 @@ import java.util.List;
 
 public aspect AClientOrder {
 	
-	// Client 
+	// Client :)
 	static boolean listClients = true, listOrders = true;
 	private List<Order> Client.orders;
 	public List<Order> Client.getOrders() { return orders; }
